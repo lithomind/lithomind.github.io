@@ -333,7 +333,7 @@ export default function Home() {
             className="text-lg tracking-tight italic"
             style={{ fontFamily: 'var(--font-logo), Georgia, serif' }}
           >
-            LithoMind
+            Seislayer
           </span>
           <p className="text-xs text-muted-foreground tracking-widest">
             Est. 2026
