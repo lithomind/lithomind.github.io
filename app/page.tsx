@@ -12,7 +12,7 @@ export default function Home() {
               className="text-2xl md:text-3xl tracking-tight italic"
               style={{ fontFamily: 'var(--font-logo), Georgia, serif' }}
             >
-              LithoMind
+              Seislayer
             </span>
           </a>
         </div>
@@ -134,11 +134,11 @@ export default function Home() {
             <div className="space-y-8 text-muted-foreground leading-loose text-sm">
               <p>
                 地震が起きると、まずP波（初期微動）が伝わります。
-                これは秒速7キロメートルくらい。カタカタと小さく揺れる、最初の振動を及ぼします。
+                これは秒速7キロメートルほどの速さで。カタカタと小さく揺れる、最初の振動を及ぼします。
               </p>
               <p>
                 そして遅れて、S波（主要動）がやってくる。
-                秒速4キロメートルくらい。建物を揺らし、時に倒壊させる、大きな揺れを及ぼします。
+                秒速4キロメートルほどの速さで。建物を揺らし、時に倒壊させる、大きな揺れを及ぼします。
               </p>
               <p>
                 この時間差を利用して、P波を検知した瞬間に警報を出す。
@@ -207,28 +207,33 @@ export default function Home() {
               <p className="text-lg md:text-xl leading-loose tracking-wide text-balance">
                 地震学と、データサイエンス。
                 <br />
-                ふたつの知を、重ね合わせる。
+                融合と、研究の意思
               </p>
             </div>
 
             <div className="space-y-8 text-muted-foreground leading-loose text-sm">
               <p>
-                LithoMindは、地震学の知見と最新のデータサイエンスを融合させ、
+                Seislayerは、地震学の知見と最新のデータサイエンスを融合させ、
                 地震防災において、新たな見地を拓こうというプロジェクトです。
               </p>
               <p>
-               最近は、科学技術が、目まぐるしく進歩しています。
-                『それを、「防災」における研究に、タイムリーに適用し、それを高めていければ、もっと素晴らしいものになるのではないか。』
-              </p>
-              <p>
-                そういって始まった取り組み。しかし、こんな考えはありふれていて、世の中にはこの理念を基に活動をし続ける企業もあります。
-              </p>
-              <p>
-                だけれども、それに少しでも協力して、新しい見地を拓き、これからの防災に貢献していけるならば、それが本望です。
-              </p>
-              <p>
                 
+               最近は、科学技術が、目まぐるしく進歩しています。
+                『それを、「防災」における研究に、タイムリーに適用しそれを高めていければ、もっと素晴らしいものになるのではないか。』
               </p>
+              <p>
+                そういって始まった取り組み。しかし、こんな考えはありふれていて世の中にはこの理念を基に活動をし続ける企業もあります。
+              </p>
+              <p>
+                けれどそれに少しでも協力して、新たな見地を拓き、これからの防災に貢献していけるならばこれこそ目指していることです。
+              </p>
+              <p>
+                「新たな見地を拓く」<br />
+                すこし大仰にきこえたかもしれませんが、そうではありません。
+                <br/>これが、研究者が持つ紛れもない真っ直ぐな意思です。<br/>
+  
+              </p>
+
             </div>
 
             <p className="text-xs text-muted-foreground tracking-wide pt-8 border-t border-border">
@@ -271,16 +276,16 @@ export default function Home() {
             <div className="space-y-8 text-muted-foreground leading-loose text-sm">
               <p>
                 大きなことは言えません。
-                まだ何も成し遂げていない、小さな挑戦です。
+                まだ何も大きなことは成し遂げていません。大きなことを成し遂げるということには、そのぶん準備が必要なのです。
               </p>
               <p>
                 でも、いつか。
                 この国のどこかで、誰かが揺れを感じる前に身を伏せられたなら。
-                誰かが、大切な人と一緒に避難できたなら。
+                誰かが、大切な人と一緒に避難できたなら。そして助かることができるなら。
               </p>
               <p>
                 そのとき、この長い道のりは、
-                意味のあるものになる。
+                意味のあるものになります
               </p>
             </div>
           </div>
@@ -295,14 +300,14 @@ export default function Home() {
           </p>
           
           <p className="text-base leading-loose mb-4">
-            この挑戦の行方を、見届けてください。
+            プロジェクトの全容・近況、詳しくはXをごらんください。
           </p>
           <p className="text-sm text-muted-foreground leading-loose mb-12">
             進捗や学びを、定期的に発信していきます。
           </p>
 
           <a 
-            href="https://x.com/" 
+            href="https://x.com/seis_layer01" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center gap-4 text-foreground hover:opacity-70 transition-opacity duration-300"
