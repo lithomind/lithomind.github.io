@@ -17,9 +17,8 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: 'LithoMind',
+  title: 'Seislayer',
   description: '一秒の解析が、一生を救う。',
-  generator: 'v0.app',
 }
 
 export default function RootLayout({
